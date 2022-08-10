@@ -10,7 +10,7 @@ app = Flask(__name__)
 def index():
     start_coords = (45.27416700, -66.05863300)
     folium_map = folium.Map(location=start_coords, zoom_start=14)
-    f = open('stops_202203021451.json')
+    f = open('#######.json')
     data = json.load(f)
     x = 0
     for i in data['stops']:
